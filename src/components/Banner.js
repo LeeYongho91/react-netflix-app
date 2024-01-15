@@ -5,7 +5,6 @@ import './Banner.css';
 
 export default function Banner() {
   const [movie, setMovie] = useState([]);
-  console.log('banner');
 
   const fetchData = async () => {
     console.log(movie);
