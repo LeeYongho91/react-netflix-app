@@ -26,6 +26,8 @@ export default function Banner() {
     fetchData();
   }, []);
 
+  const truncate = (str, n) => (str?.length > n ? `${str.substr(0, n - 1)}...` : str);
+
   return (
     <header
       className="banner"
@@ -35,7 +37,17 @@ export default function Banner() {
         backgroundSize: 'cover',
       }}
     >
-      Banner
+      <div className="banner__contents">
+        <h1 className="banner__title">{movie.title || movie.name || movie.original_name}</h1>
+
+        <div className="banner__buttons">
+          <button className="banner__button play">Play</button>
+          <button className="banner__button info">More Information</button>
+        </div>
+
+        <h1 className="banner__description">{truncate(movie.overview, 100)}</h1>
+      </div>
+      <div className="banner--fadeBottom" />
     </header>
   );
 }
