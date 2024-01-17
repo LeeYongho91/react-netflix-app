@@ -18,6 +18,7 @@
         "no-undef" : "off",
         "camelcase" : "off",
         "no-unreachable": "off",
-        "react/button-has-type" : "off"
+        "react/button-has-type" : "off",
+        "react/prop-types" : "off"
     }
 }
