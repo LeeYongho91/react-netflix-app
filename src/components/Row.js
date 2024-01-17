@@ -15,10 +15,6 @@ export default function Row({
 
   useEffect(() => {
     fetchMovieData();
-    console.log(title);
-    console.log(id);
-    console.log(isLargeRow);
-    console.log(movies);
   }, []);
 
   return (
