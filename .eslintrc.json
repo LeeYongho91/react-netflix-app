@@ -21,6 +21,9 @@
         "react/button-has-type" : "off",
         "react/prop-types" : "off",
         "jsx-a11y/no-static-element-interactions" : "off",
-        "react/jsx-props-no-spreading" : "off"
+        "react/jsx-props-no-spreading" : "off",
+        "consistent-return" : "off",
+        "array-callback-return" : "off",
+        "react/no-unescaped-entities" : "off"
     }
 }
