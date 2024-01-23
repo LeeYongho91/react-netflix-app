@@ -24,6 +24,7 @@
         "react/jsx-props-no-spreading" : "off",
         "consistent-return" : "off",
         "array-callback-return" : "off",
-        "react/no-unescaped-entities" : "off"
+        "react/no-unescaped-entities" : "off",
+        "import/no-unresolved" : "off"
     }
 }
