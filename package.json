@@ -2,6 +2,7 @@
   "name": "react-netflix-app",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://LeeYongho91.github.io/react-netflix-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -12,13 +13,16 @@
     "react-router-dom": "^6.21.3",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.8",
+    "swiper": "^11.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +50,7 @@
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^6.1.1",
     "prettier": "3.2.2"
   }
 }
