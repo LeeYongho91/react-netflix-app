@@ -25,6 +25,7 @@
         "consistent-return" : "off",
         "array-callback-return" : "off",
         "react/no-unescaped-entities" : "off",
-        "import/no-unresolved" : "off"
+        "import/no-unresolved" : "off",
+        "react/jsx-boolean-value" : "off"
     }
 }
